@@ -2384,11 +2384,13 @@ h2 {
   display: grid;
   gap: 1.5rem;
   align-items: start;
+  max-width: 860px;
+  margin: 0 auto;
 }
 
 @media (min-width: 800px) {
   .contact-layout {
-    grid-template-columns: minmax(0, 280px) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr);
     gap: 2rem;
   }
 }
