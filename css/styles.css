@@ -2364,6 +2364,31 @@ h2 {
   color: var(--muted);
 }
 
+.team-card--member .team-card__name {
+  margin-bottom: 0.58rem;
+}
+
+.team-card--member .team-card__meta {
+  line-height: 1.68;
+}
+
+.team-card__mail {
+  margin: 1rem 0 0;
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+.team-card__mail a {
+  color: color-mix(in srgb, var(--primary) 80%, var(--text));
+  text-decoration: none;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.team-card__mail a:hover {
+  text-decoration: underline;
+}
+
 .team-card__id {
   font-variant-numeric: tabular-nums;
   font-weight: 700;
